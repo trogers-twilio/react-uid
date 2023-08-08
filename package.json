@@ -20,7 +20,6 @@
     "build": "lib-builder build && yarn size:report",
     "release": "yarn build && yarn test",
     "prepublishOnly": "yarn build",
-    "prepublish": "yarn build",
     "lint": "lib-builder lint",
     "static": "ts-react-toolbox publish",
     "typecheck:flow": "flow check",
